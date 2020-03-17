@@ -8,8 +8,25 @@
           <input type="text" v-model="todo.description" class="form-input" placeholder="Novo todo">
           <button class="btn btn-primary">Adicionar</button>
         </div>
-        {{ todos }}
-      </form>      
+      </form>
+      <div class="todo-list">
+        <div class="tile flex-centered" v-for="t in todos" :key="t.id">
+          <div class="tile-icon">
+            <div>
+              <i class="icon icon-time"></i>
+            </div>              
+          </div>
+          <div class="tile-content">
+            <div class="tile s-subtitle">{{ t.description }}</div>
+          </div>
+          <div class="tile-action">
+            <button class="btn btn-link">Concluido</button>
+            <button class="btn btn-link">
+              <span class="text-error">Remover</span>
+            </button>
+          </div>          
+        </div>
+      </div>     
     </dir>
   </div>
 </template>
@@ -25,6 +42,7 @@ export default {
     addTodo(todo){
       todo.id = Date.now()
       this.todos.push(todo)
+      this.todo = { checked: false }
     }
   },
 }
@@ -34,5 +52,8 @@ export default {
   .img-logo{
     max-width: 200px;
     margin: 0 auto;
+  }
+  .todo-list{
+    padding-top: 2rem;
   }
 </style>
