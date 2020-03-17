@@ -6,35 +6,22 @@
       <form @submit.prevent="addTodo(todo)">
         <div class="input-group">
           <input type="text" v-model="todo.description" class="form-input" placeholder="Novo todo">
-          <button class="btn btn-primary">Adicionar</button>
+          <button class="btn btn-primary input-group-btn">Adicionar</button>
         </div>
       </form>
       <div class="todo-list">
-        <div class="tile flex-centered" v-for="t in todos" :key="t.id">
-          <div class="tile-icon">
-            <div>
-              <i class="icon icon-time"></i>
-            </div>              
-          </div>
-          <div class="tile-content">
-            <div class="tile s-subtitle">{{ t.description }}</div>
-          </div>
-          <div class="tile-action">
-            <button class="btn btn-link">Concluido</button>
-            <button class="btn btn-link">
-              <span class="text-error">Remover</span>
-            </button>
-          </div>          
-        </div>
+        <todo v-for="t in todos" :key="t.id" :todo="t" />
       </div>     
     </dir>
   </div>
 </template>
 
 <script>
+import Todo from "./components/Todo"
 
 export default {
   name: 'App',
+  components: { Todo },
   data(){
     return { todos: [], todo: { checked: false } }
   },
