@@ -33,6 +33,11 @@ yarn add vue-router
 ```
 yarn add vuex
 ```
+# Comando para criar uma aplicação
+```
+vue create apptodo
+```
+
 # Comando de execução da aplicação
 ```
 yarn serve
