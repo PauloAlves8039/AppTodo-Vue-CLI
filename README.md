@@ -7,9 +7,8 @@
   <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router%20-v3.1.6-green"></a>
 </p>
 
+<h1 align="center">AppTodo-Vue-CLI</h1>
 
-***
-# AppTodo-Vue-CLI
 Repositório de aplicação web para simular um quadro de kanban para adição e manipulação de tarefas desenvolvida com Vue CLI.
 Projeto teve código com base no tutotial
 [Iniciando com Vue.js](https://www.youtube.com/watch?v=ufQhPH0eyvo&list=PLp7Agl_Dsq-xkB8iOTb3yTrfYpH6rDQL8),
@@ -48,7 +47,6 @@ yarn add vuex
 ```
 vue create apptodo
 ```
-
 ### Executando a aplicação
 ```
 yarn serve
