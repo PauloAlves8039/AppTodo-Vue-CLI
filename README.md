@@ -17,28 +17,30 @@ Projeto teve código com base no tutotial
 - Vuex v3.1.3
 - Vue CLI v4.2.3
 
-# Comando para instalar o Yarn
+# Comando utilizados no projeto
+
+### Instação do Yarn
 ```
 yarn global add @vue/cli
 ```
-# Comando para instalar o Vue CLI
+### Instação do Vue CLI
 ```
 npm install -g @vue/cli
 ```
-# Comando para adicionar o Vue Route 
+### Adicionando o Vue Route 
 ```
 yarn add vue-router
 ```
-# Comando para adicionar o Vuex
+### Adicionando o Vuex
 ```
 yarn add vuex
 ```
-# Comando para criar uma aplicação
+### Criando a aplicação
 ```
 vue create apptodo
 ```
 
-# Comando de execução da aplicação
+### Executando a aplicação
 ```
 yarn serve
 ```
