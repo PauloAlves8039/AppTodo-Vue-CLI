@@ -11,7 +11,7 @@ Projeto teve código com base no tutotial
 [Iniciando com Vue.js](https://www.youtube.com/watch?v=ufQhPH0eyvo&list=PLp7Agl_Dsq-xkB8iOTb3yTrfYpH6rDQL8),
 [Vuex + Vue Router](https://www.youtube.com/watch?v=TLK-99unfPA&list=PLp7Agl_Dsq-xqtT7jn6PgzwC2jqdMajP2) e na
 [Documentação Vue CLI](https://cli.vuejs.org/).
-***
+
 # Recursos Utilizados
 - HTML5
 - CSS3
@@ -22,7 +22,7 @@ Projeto teve código com base no tutotial
 - Vue Router v3.1.6
 - Vuex v3.1.3
 - Vue CLI v4.2.3
-***
+
 # Comando utilizados no projeto
 ### Instalação do Yarn
 ```
