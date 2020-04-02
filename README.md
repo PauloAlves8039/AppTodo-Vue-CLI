@@ -19,11 +19,11 @@ Projeto teve código com base no tutotial
 
 # Comando utilizados no projeto
 
-### Instação do Yarn
+### Instalação do Yarn
 ```
 yarn global add @vue/cli
 ```
-### Instação do Vue CLI
+### Instalação do Vue CLI
 ```
 npm install -g @vue/cli
 ```
