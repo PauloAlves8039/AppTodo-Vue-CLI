@@ -1,9 +1,13 @@
-[![SpectreCSS](https://img.shields.io/badge/Spectre.css-v0.5.8-lightgrey)](https://picturepan2.github.io/spectre/)
-[![Yarn](https://img.shields.io/badge/Yarn-v1.22.4-blue)](https://yarnpkg.com/)
-[![VueJS](https://img.shields.io/badge/VueJS-v2.9.6-green)](https://vuejs.org/)
-[![VueCLI](https://img.shields.io/badge/Vue%20CLI-v4.2.3-green)](https://cli.vuejs.org/)
-[![Vuex](https://img.shields.io/badge/Vuex-v3.1.3-green)](https://vuex.vuejs.org/guide/)
-[![VueRouter](https://img.shields.io/badge/Vue%20Router%20-v3.1.6-green)](https://router.vuejs.org/)
+<p align="center">
+  <a href="https://picturepan2.github.io/spectre/"><img src="https://img.shields.io/badge/Spectre.css-v0.5.8-lightgrey"></a>
+  <a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/Yarn-v1.22.4-blue"></a>
+  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/VueJS-v2.9.6-green"></a>
+  <a href="https://cli.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20CLI-v4.2.3-green"></a>
+  <a href="https://vuex.vuejs.org/guide/"><img src="https://img.shields.io/badge/Vuex-v3.1.3-green"></a>
+  <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router%20-v3.1.6-green"></a>
+</p>
+
+
 ***
 # AppTodo-Vue-CLI
 Repositório de aplicação web para simular um quadro de kanban para adição e manipulação de tarefas desenvolvida com Vue CLI.
