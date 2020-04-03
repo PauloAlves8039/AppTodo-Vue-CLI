@@ -7,15 +7,16 @@
   <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router%20-v3.1.6-green"></a>
 </p>
 
-<h1 align="center">AppTodo-Vue-CLI</h1>
+<h1 align="center">:book: AppTodo-Vue-CLI</h1>
 
+## :computer: Projeto
 Repositório de aplicação web para simular um quadro de kanban para adição e manipulação de tarefas desenvolvida com Vue CLI.
 Projeto teve código com base no tutotial
 [Iniciando com Vue.js](https://www.youtube.com/watch?v=ufQhPH0eyvo&list=PLp7Agl_Dsq-xkB8iOTb3yTrfYpH6rDQL8),
 [Vuex + Vue Router](https://www.youtube.com/watch?v=TLK-99unfPA&list=PLp7Agl_Dsq-xqtT7jn6PgzwC2jqdMajP2) e na
 [Documentação Vue CLI](https://cli.vuejs.org/).
 
-# Recursos Utilizados
+## :rocket: Recursos Utilizados
 - HTML5
 - CSS3
 - Javascript
@@ -26,7 +27,7 @@ Projeto teve código com base no tutotial
 - Vuex v3.1.3
 - Vue CLI v4.2.3
 
-# Comando utilizados no projeto
+## :pencil: Comandos utilizados no projeto
 ### Instalação do Yarn
 ```
 yarn global add @vue/cli
@@ -51,7 +52,7 @@ vue create apptodo
 ```
 yarn serve
 ```
-# Screenshots
+## :camera: Screenshots
 ![Screenshot1](https://github.com/PauloAlves8039/AppTodo-Vue-CLI/blob/master/src/assets/images/screenshot1.png)
 ![Screenshot2](https://github.com/PauloAlves8039/AppTodo-Vue-CLI/blob/master/src/assets/images/screenshot2.png)
 
