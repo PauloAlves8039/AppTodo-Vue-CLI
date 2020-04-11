@@ -1,3 +1,5 @@
+<h1 align="center">:book: AppTodo-Vue-CLI</h1>
+
 <p align="center">
   <a href="https://picturepan2.github.io/spectre/"><img src="https://img.shields.io/badge/Spectre.css-v0.5.8-lightgrey"></a>
   <a href="https://yarnpkg.com/"><img src="https://img.shields.io/badge/Yarn-v1.22.4-blue"></a>
@@ -6,8 +8,6 @@
   <a href="https://vuex.vuejs.org/guide/"><img src="https://img.shields.io/badge/Vuex-v3.1.3-green"></a>
   <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router%20-v3.1.6-green"></a>
 </p>
-
-<h1 align="center">:book: AppTodo-Vue-CLI</h1>
 
 ## :computer: Projeto
 Repositório de aplicação web para simular um quadro de kanban para adição e manipulação de tarefas desenvolvida com Vue CLI.
@@ -55,4 +55,7 @@ yarn serve
 ## :camera: Screenshots
 ![Screenshot1](https://github.com/PauloAlves8039/AppTodo-Vue-CLI/blob/master/src/assets/images/screenshot1.png)
 ![Screenshot2](https://github.com/PauloAlves8039/AppTodo-Vue-CLI/blob/master/src/assets/images/screenshot2.png)
+
+## Author
+:computer: [Paulo Alves](https://github.com/PauloAlves8039)
 
